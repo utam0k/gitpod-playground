@@ -1,3 +1,3 @@
 FROM gitpod/workspace-full:latest
 
-RUN brew install vim
+RUN brew install fzf emacs
