@@ -4,3 +4,7 @@ github:
   prebuilds:
     master: true
     branches: true
+  
+tasks:
+  - name: docker hello-world
+    init: docker run hello-world
