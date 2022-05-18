@@ -6,5 +6,5 @@ github:
     branches: true
   
 tasks:
-  - name: docker hello-world
-    init: docker run hello-world
+  - name: docker-compose up
+    init: docker-compose up -d
