@@ -6,7 +6,6 @@ Please move along.
 # How to build the image
 
 ```console
-$ docker buildx build --load -t hello /tmp/hello
 $ docker run --rm hello
 Hello, world!
 ```

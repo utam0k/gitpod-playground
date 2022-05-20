@@ -10,3 +10,4 @@ tasks:
     command: |
       docker buildx create --use --name lazy-builder --buildkitd-flags '--oci-worker-snapshotter=stargz'
       docker buildx inspect --bootstrap lazy-builder
+      docker buildx build --load -t hello /workspace/gitpod-playground 
