@@ -4,9 +4,3 @@ github:
   prebuilds:
     master: true
     branches: true
-
-# tasks:
-#   - name: setup stargz
-#     command: |
-#       docker buildx create --use --name lazy-builder --buildkitd-flags '--oci-worker-snapshotter=stargz'
-#       docker buildx inspect --bootstrap lazy-builder
