@@ -5,5 +5,5 @@ github:
     master: true
     branches: true
   tasks:
-  - init: |
-    docker-compose build
+    - init: |
+      docker-compose build
