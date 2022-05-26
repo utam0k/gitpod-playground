@@ -4,3 +4,6 @@ github:
   prebuilds:
     master: true
     branches: true
+  tasks:
+  - init: |
+    docker-compose build
