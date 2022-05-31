@@ -6,7 +6,6 @@ github:
     branches: true
 
 tasks:
-  - name: Install & Start Oracle
+  - name: Instal
     init: docker pull gvenzl/oracle-xe
-  - name: Install Oracle Extension
-    command: wget https://ipfs.interclip.app/ipfs/bafybeiaciknwozpt7gqsvnjyoyvpws26osi3htfnrhhij2bduylgt35vje/Oracle.oracledevtools-21.4.0.vsix && code --install-extension ./Oracle.oracledevtools-21.4.0.vsix
+
