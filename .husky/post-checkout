@@ -1,3 +1,3 @@
 #!/bin/bash
 
-yarn -h
+not_found_command
